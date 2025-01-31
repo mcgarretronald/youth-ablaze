@@ -31,8 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Add your logo as a favicon */}
-        <link rel="icon" type="image/png" href="/logo.png" />
+      <link rel="icon" href="/logo.svg" />
       </head>
       <body className={`${poppins.variable} ${lato.variable} antialiased`}>
         {children}
