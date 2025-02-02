@@ -4,6 +4,7 @@ import EmpowerSection from '../Components/EmpowerSection';
 import Programs from '../Components/Programs';
 import Testimony from '../Components/Testimony';
 import Carousel from '../Components/Carousel';
+import Contact from '../Components/Contact';
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <Programs/>
       <Testimony/>
       <Carousel/>
+      <Contact/>
     </>
   );
 }
