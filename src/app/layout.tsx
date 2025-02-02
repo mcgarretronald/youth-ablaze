@@ -6,7 +6,7 @@ import NavBar from "./Components/NavBar";
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["200", "300", "400", "700"], // Regular and Bold
+  weight: ["200", "300", "400","500","600", "700"], // Regular and Bold
 });
 
 const lato = Lato({

@@ -12,13 +12,13 @@ const texts = [
 export default function EmpowerSection() {
     return (
         <div className="bg-[#0C4A53] lg:p-20">
-            <div style={{ backgroundImage: 'url(/empowerbg.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
-                className='flex flex-col items-center rounded-xl justify-center gap-8 md:p-10 p-5  lg:flex-row md:gap-20'>
+            <div 
+                className='shadow-2xl bg-[#305553] rounded-xl flex flex-col items-center justify-center gap-8 md:p-10 p-5  lg:flex-row md:gap-20'>
                 <section>
                     <Image
                         src={'/empower.png'}
                         alt="Empower"
-                        width={400}
+                        width={300}
                         height={500}
                         className='rounded-lg w-full'
                     />
