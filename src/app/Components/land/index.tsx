@@ -9,9 +9,9 @@ import { motion } from 'framer-motion';
 
 export default function Landing() {
     return (
-        <div className='pt-[80px] pb-5 bg-[#E8FFFB] px-5 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-2 items-center'>
+        <div className='pt-[90px] pb-5 bg-[#E8FFFB] px-5 md:px-[10%] grid grid-cols-1 lg:grid-cols-2 gap-2 items-center'>
             <section className='text-center md:text-left'>
-                <div className='text-4xl md:text-6xl pb-3 flex flex-col gap-2 font-[600]'>
+                <div className='text-4xl md:text-5xl pb-3 flex flex-col gap-2 font-[600]'>
                     <h1>Ignite Your</h1>
                     <h1>Potential with</h1>
                     <h1>Youth Ablaze</h1>
@@ -51,7 +51,7 @@ export default function Landing() {
             <motion.section
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, ease: 'easeOut' }}
+                transition={{ duration: 0.5, ease: 'easeOut' }}
             >
                 <Image
                     src='/hero.png'
