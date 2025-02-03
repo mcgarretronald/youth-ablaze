@@ -27,7 +27,7 @@ export default function NavBar() {
                 initial={{ y: 0 }}
                 animate={{ y: visible ? 0 : "-100%" }}
                 transition={{ duration: 0.3, ease: "easeInOut" }}
-                className="fixed top-4 transform -translate-x-3/4 bg-white border-2 border-gray-300 w-[95%] max-w-[1500px] py-2 px-6 flex justify-between items-center z-50 transition-all rounded-full shadow-md"
+                className="fixed top-4 transform -translate-x-3/4 bg-white border-[1px]  border-gray-300 w-[90%] max-w-[1500px] py-1 px-12 flex justify-between items-center z-50 transition-all rounded-full "
             >
                 {/* Logo */}
                 <div className="flex items-center">
@@ -44,17 +44,17 @@ export default function NavBar() {
                 </ul>
 
                 {/* CTA Buttons (Desktop) */}
-                <div className="hidden md:flex gap-4">
+                <div className="hidden md:flex gap-4 text-sm">
                     <Link href={'/getinvolved'}>
                         <button className="flex items-center gap-1 group align-middle justify-center rounded-full px-4 py-2 hover:bg-gray-200 transition-all duration-300">
                             Join us
-                            <FaArrowRight className="transform transition-transform mt-1 duration-300 ease-in-out group-hover:translate-x-1" />
+                            <FaArrowRight className="transform transition-transform  duration-300 ease-in-out group-hover:translate-x-1" />
                         </button>
                     </Link>
                     <Link href={'/#contact'}>
                         <button className="flex items-center gap-1 group align-middle justify-center rounded-full px-4 py-2 text-white bg-[#008080] hover:bg-[#0a5f5f] transition-all duration-300">
                             Contact us
-                            <FaArrowRight className="transform transition-transform mt-1 duration-300 ease-in-out group-hover:translate-x-1" />
+                            <FaArrowRight className="transform transition-transform  duration-300 ease-in-out group-hover:translate-x-1" />
                         </button>
                     </Link>
                 </div>

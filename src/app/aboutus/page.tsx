@@ -1,11 +1,15 @@
 import React from 'react'
-import NavBar from '../Components/NavBar'
+import AboutHero from '../Components/AboutusPageComponents/Hero'
+import Transformative from '../Components/AboutusPageComponents/Empower'
+import Leaders from '../Components/AboutusPageComponents/Leaders/Index'
+
 export default function AboutUs() {
     return (
-        <>
-            <NavBar />
-            <div className='text-4xl'>AboutUs</div>
-        </>
+        <div className='pt-[90px]'>
+            <AboutHero/>
+            <Transformative/>
+            <Leaders/>
+        </div>
 
     )
 }
