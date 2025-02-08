@@ -27,7 +27,7 @@ export default function NavBar() {
                 initial={{ y: 0 }}
                 animate={{ y: visible ? 0 : "-100%" }}
                 transition={{ duration: 0.3, ease: "easeInOut" }}
-                className="fixed top-4 transform -translate-x-3/4 bg-white border-[1px]  border-gray-300 w-[90%] max-w-[1500px] py-1 px-12 flex justify-between items-center z-50 transition-all rounded-full "
+                className="fixed top-4 transform -translate-x-3/4 bg-white border-[1px]  border-gray-300 w-[90%] max-w-[1500px] py-3 px-12 flex justify-between items-center z-50 transition-all rounded-full "
             >
                 {/* Logo */}
                 <div className="flex items-center">
