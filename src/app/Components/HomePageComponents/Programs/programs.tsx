@@ -10,7 +10,7 @@ type ProgramsProps = {
 
 export default function Programscard({ image, title, description, borderStyle }: ProgramsProps) {
     return (
-        <div className={`flex flex-col p-10 text-center hover:shadow-2xl cursor-pointer hover:bg-[#E8FFFB] items-center justify-center border-black/10 ${borderStyle}`}>
+        <div className={`flex flex-col p-10 text-center  cursor-pointer  items-center justify-center border-black/10 ${borderStyle}`}>
             <Image 
                 src={image} 
                 alt={title}
