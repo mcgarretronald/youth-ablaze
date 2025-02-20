@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18]  # Specify Node.js version
+        node-version: [18]
 
     steps:
       # Checkout the repository
